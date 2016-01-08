@@ -1,0 +1,31 @@
+{
+  "name": "ngeom",
+  "version": "0.0.1",
+  "description": "Geometry objects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nrkn/ngeom.git"
+  },
+  "keywords": [
+    "geometry",
+    "point",
+    "size",
+    "object",
+    "factory"
+  ],
+  "author": "Nik Coughlin <nrkn.com@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrkn/ngeom/issues"
+  },
+  "homepage": "https://github.com/nrkn/ngeom#readme",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "nof-number": "0.0.1"
+  }
+}
