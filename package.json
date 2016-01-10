@@ -1,6 +1,6 @@
 {
   "name": "ngeom",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Geometry objects",
   "main": "index.js",
   "repository": {
@@ -11,6 +11,7 @@
     "geometry",
     "point",
     "size",
+    "grid",
     "object",
     "factory"
   ],
@@ -26,6 +27,13 @@
     ]
   },
   "dependencies": {
-    "nof-number": "0.0.1"
+    "nof": "0.0.2",
+    "nof-number": "0.0.3"
+  },
+  "scripts": {
+    "test": "mocha --harmony_rest_parameters --harmony-destructuring"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
   }
 }
